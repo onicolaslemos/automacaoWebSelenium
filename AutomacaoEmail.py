@@ -32,13 +32,13 @@ browser.implicitly_wait(3) #Aguarda até 3 segundos cada etapa para os elementos
 
 class param: #PARÂMETROS DE ACESSO
     #LINKEDIN
-    usuario = "nicolas-lemos@outlook.com"
-    senha = "nicolas2005"
+    usuario = "login_linkedin"
+    senha = "senha_linkedin"
 
     #E-MAIL
-    remetente = 'nicolas-lemos@outlook.com'
-    senhaEmail = 'nicolas2005'
-    destinatario = 'nicolaslemosaparecido@gmail.com'
+    remetente = 'emailRemetente'
+    senhaEmail = 'senha_emailRemetente'
+    destinatario = 'emailDestinatario'
 
 class login: #Realizando login no LinkedIn
     @staticmethod
