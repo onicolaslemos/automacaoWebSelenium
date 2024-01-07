@@ -1,1 +1,19 @@
+Programa "AutomacaoEmail.py"
 
+Automação Web utilizando módulos do Python para automatizar tarefas e enviar e-mail
+
+Algoritmo:
+
+1. Acessar LinkedIn
+1.1 Login realizado com os parâmetros de usuário e senha predefinidos pelo usuário no campo apropriado
+1.2 Acesso à página de perfil do usuário
+1.3 Busca-se um campo de site / portfólio
+
+2. Acessar Site
+2.1 Redirecionamento para o site após encontrá-lo no perfil do LinkedIn
+2.2 Procura do post com a informação desejada
+2.3 Realiza um print da imagem / conteúdo escolhido e é armazenado
+
+3. Enviando E-mail
+3.1 Usando o smtplib e o lib, são configurados parâmetros para o envio do e-mail com uma mensagem desejada
+e com o arquivo baixado na etapa 2.
